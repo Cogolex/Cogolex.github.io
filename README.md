@@ -1,1 +1,32 @@
-"# Cogolex.github.io" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helldivers 2 Stratagem Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Helldivers 2 Stratagem Loadout Randomizer</h1>
+    </header>
+    <main>
+        <div id="slot-machine">
+            <div class="slot-container">
+                <div class="slot"><img src="" alt="Stratagem Slot 1"></div>
+                <div class="slot"><img src="" alt="Stratagem Slot 2"></div>
+                <div class="slot"><img src="" alt="Stratagem Slot 3"></div>
+                <div class="slot"><img src="" alt="Stratagem Slot 4"></div>
+            </div>
+            <button id="spin-button">Randomize Loadout</button>
+        </div>
+        <div id="results-container">
+            <h2>Your Randomized Loadout:</h2>
+            <div id="results">
+                <p>Click the button to generate a random loadout!</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
